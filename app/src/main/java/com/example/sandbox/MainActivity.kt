@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var button: Button
     private val handler = Handler()
     private var thread: Thread? = null
-    private var ps: ParticleSystem? = null
+
+    private val progressOnSolvingProblems = 2/10
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,7 +43,13 @@ class MainActivity : AppCompatActivity() {
                         confetti()
                     }
                 }
-                Thread.sleep(50) // simulate some work
+                when
+                {
+                    i in  1 ..31 -> Thread.sleep(50)
+                    i in  42 ..53 -> Thread.sleep(500)
+                    else -> Thread.sleep(20)
+                }
+                // simulate some work
             }
         }
         thread?.start()
