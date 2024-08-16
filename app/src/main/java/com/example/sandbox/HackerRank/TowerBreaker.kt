@@ -1,7 +1,8 @@
 package com.example.sandbox.HackerRank
 
 //https://www.hackerrank.com/challenges/tower-breakers-again-1/problem
-import java.util.*
+import java.util.Scanner
+
 const val MAX_NUMBER = 100001
 
 val memoizedValues = IntArray(MAX_NUMBER) { -1 }
