@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HankerRank</string>
+    <string name="background_title">Hacker Rank Module</string>
+    <string name="check_progress">Check Progress</string>
+</resources>

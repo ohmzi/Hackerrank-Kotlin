@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#000000</color>
+    <color name="progress_background">#797878</color>
+    <color name="progress_foreground">#258448</color>
+    <color name="confetti_color_red">#FF0000</color>
+    <color name="confetti_color_yellow">#FFFF00</color>
+    <color name="confetti_color_green">#00FF00</color>
+</resources>
