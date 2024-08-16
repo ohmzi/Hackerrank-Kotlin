@@ -43,10 +43,9 @@ class MainActivity : AppCompatActivity() {
                         confetti()
                     }
                 }
-                when
-                {
-                    i in  1 ..31 -> Thread.sleep(50)
-                    i in  42 ..53 -> Thread.sleep(500)
+                when (i) {
+                    in 1 ..31 -> Thread.sleep(50)
+                    in 42 ..53 -> Thread.sleep(500)
                     else -> Thread.sleep(20)
                 }
                 // simulate some work

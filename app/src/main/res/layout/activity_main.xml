@@ -53,7 +53,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar"
         tools:text="30% Completed"
-        android:text="0% Completed"/>
+        android:text="0% Completed" />
 
     <Button
         android:id="@+id/button"

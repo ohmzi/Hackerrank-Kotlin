@@ -42,7 +42,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.material3.android)
-    implementation(files("/Users/ohmz/Downloads/LeonidsLib-1.3.2.jar"))
+    implementation(files("/Users/ohmz/AndroidStudioProjects/Hackerrank-Kotlin/app/src/main/LeonidsLib-1.3.2.jar"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
